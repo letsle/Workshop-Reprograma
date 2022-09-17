@@ -1,0 +1,91 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+/*configurações banner*/
+
+.banner{   
+    background-image: url(../imagens/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 50em;
+    background-position: 15em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content:center;
+
+}
+
+h1, body {
+    margin: 0;
+}
+
+.banner h1, .banner p {
+    color: rgba(255, 255, 255, 0.979);
+    padding: 80px;
+  
+}
+
+h1{
+    font-size: 30pt;
+  
+}
+
+button{
+    text-transform: uppercase;
+    font-size: 14pt;
+    color:#440d5f;
+    border-radius: 30px;
+    border-width: 2px;
+    padding: 10px;
+    border-color: #511870;
+    border-style:solid;
+    border-width: 3px;
+ 
+}
+
+/* descrição */
+
+h2{
+    color:#a24cd4;
+}
+
+.descricao , .habilidades{
+    width: 40%;
+    display: inline-block;
+}
+
+
+.sobre{
+    padding-left: 70px;
+}
+
+.habilidades{
+    margin-left: 50px;
+}
+
+/* footer */
+
+.redes-sociais-botao{
+    background-color:#7E459B;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.redes-sociais-botao h4, .redes-sociais-botao p{
+    color:white;
+    
+}
+
+.footer{
+    text-align: center;
+}
